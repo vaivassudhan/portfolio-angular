@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContentComponent } from './content/content.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +18,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
