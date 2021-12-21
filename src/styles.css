@@ -24,3 +24,19 @@ color: #fafafc;
 .card-header{
   color: rgb(10,132,255);
 }
+.blue{
+  color: rgb(10,132,255);
+}
+.secondary-color{
+  color: #8c8c8e;
+}
+.primary-text-color{
+  color: #fafafc;
+}
+span{
+  color: #fafafc;
+}
+body{
+  height: 100vh;
+  background-color: #18191A;
+}

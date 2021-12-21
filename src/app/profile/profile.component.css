@@ -51,16 +51,20 @@ a{
 .pbar{
 height: 5px;background-color: rgb(18,18,19);
 }
-.skill-container{
-    padding: 16px;
+.skills{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 10px;
     color: white;
-
+    --animate-duration: 2500ms;
+    --animate-delay: 0.9s;
 }
 .profile-card-div{
     background-color: #242526;
 }
 .progress-bar-text{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding-bottom: 8px;
     display: flex;
     flex-direction: row;
@@ -68,4 +72,15 @@ height: 5px;background-color: rgb(18,18,19);
 .percent{
     margin-left: auto;
     color: #8c8c8e;
+}
+.knowledge-container{
+    padding: 18px;
+}
+.knowledge-container .text{
+    padding-left: 12px;
+    font-size: 0.9rem;
+}
+.knowledge-container .check{
+    font-size: 0.8rem;
+    padding-left: 6px;
 }
