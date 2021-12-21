@@ -21,3 +21,6 @@ color: #fafafc;
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
 }
+.card-header{
+  color: rgb(10,132,255);
+}

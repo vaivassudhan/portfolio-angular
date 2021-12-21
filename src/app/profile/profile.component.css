@@ -1,6 +1,6 @@
 .img-round{
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin: 0 auto;
     border-radius: 50%;
     position: relative;
@@ -17,7 +17,8 @@
     color: #fafafc;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-    font-size: 16px;
+    font-size: 1.0rem;
+    font-weight: 600;
   
 }
 .art-name a {
@@ -31,7 +32,15 @@ color: rgb(10,132,255);
 a{
     text-decoration: none;
 }
+.art-sm-text{
+    color: #8c8c8e;
+    font-size: 0.8rem;
+  }
 :root {
     --animate-duration: 1000ms;
     --animate-delay: 0.9s;
+  }
+  .below-profile{
+      background-color: rgb(28,28,30);
+
   }

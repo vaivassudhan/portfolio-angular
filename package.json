@@ -18,6 +18,7 @@
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
+    "@fortawesome/angular-fontawesome": "^0.10.1",
     "@types/three": "^0.135.0",
     "angular-typing-animation": "0.5.31",
     "animate.css": "^4.1.1",
