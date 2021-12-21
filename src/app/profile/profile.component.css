@@ -84,3 +84,27 @@ height: 5px;background-color: rgb(18,18,19);
     font-size: 0.8rem;
     padding-left: 6px;
 }
+.social-container{
+   background-color: #242526;
+   padding-left:20px;
+   padding-right: 20px;
+   padding-top:6px;
+   padding-bottom: 6px;
+}
+.social-container .social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social-container .social-icons .sicon{
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #8c8c8e;
+    font-size: 1.6rem;
+    -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.social-container .social-icons .sicon a:hover{
+    text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
+    color: #fafafc;
+}
