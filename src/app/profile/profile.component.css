@@ -13,6 +13,10 @@
 .card-body{
     text-align: center;
 }
+.card{
+    box-shadow: none;
+    border: none;
+}
 .art-name {
     color: #fafafc;
     -webkit-transition: 0.4s ease-in-out;
@@ -40,7 +44,28 @@ a{
     --animate-duration: 1000ms;
     --animate-delay: 0.9s;
   }
-  .below-profile{
-      background-color: rgb(28,28,30);
+.below-profile{
+    background-color: #181818;
 
-  }
+}
+.pbar{
+height: 5px;background-color: rgb(18,18,19);
+}
+.skill-container{
+    padding: 16px;
+    color: white;
+
+}
+.profile-card-div{
+    background-color: #242526;
+}
+.progress-bar-text{
+    font-size: 0.9rem;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.percent{
+    margin-left: auto;
+    color: #8c8c8e;
+}
