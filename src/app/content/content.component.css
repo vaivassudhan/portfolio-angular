@@ -1,3 +1,8 @@
-.row{
-    height:399px;
+.content-container{
+    background-color: #181818;
+    padding-left: 0;
+}
+.col-lg-3{
+    padding-left: 0;
+    padding-right: 0;
 }
