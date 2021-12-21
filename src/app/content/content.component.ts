@@ -15,12 +15,12 @@ export class ContentComponent implements OnInit {
 
     var renderer = new THREE.WebGLRenderer();
     var container = document.getElementById('container')!;
-    // renderer.setSize( container.clientWidth, container.clientHeight );
+    renderer.setSize( window.innerWidth, window.innerHeight/2 );
     container.appendChild( renderer.domElement );
     
 
-    var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-    var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+    var geometry = new THREE.SphereGeometry( 1,64,64 );
+    var material = new THREE.MeshStandardMaterial();
     var cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
 

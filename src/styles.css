@@ -36,7 +36,10 @@ color: #fafafc;
 span{
   color: #fafafc;
 }
+.body-bg{
+  height: 100%;
+  /* background-color: #18191A; */
+}
 body{
-  height: 100vh;
-  background-color: #18191A;
+  background-color: black;
 }
