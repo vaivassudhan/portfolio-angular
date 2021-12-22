@@ -43,7 +43,7 @@ height: 5px;background-color: rgb(18,18,19);
 }
 @media (max-width: 420px) {
     .scroll {
-        height: 51vh;
+        height: 52vh;
     }
     
 }
