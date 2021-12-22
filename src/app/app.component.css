@@ -1,0 +1,12 @@
+.app-container{
+    z-index: 1;
+    position: absolute;
+    height: 100vh;
+}
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
