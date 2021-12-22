@@ -10,6 +10,9 @@ import { ContentComponent } from './content/content.component';
 import { ImageCardComponent } from './profile/image-card/image-card.component';
 import { SocialCardComponent } from './profile/social-card/social-card.component';
 import { SkillCardComponent } from './profile/skill-card/skill-card.component';
+import { ProjectsComponent } from './content/projects/projects.component';
+import { CertificatesComponent } from './content/certificates/certificates.component';
+import { OthersComponent } from './content/others/others.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,10 @@ import { SkillCardComponent } from './profile/skill-card/skill-card.component';
     ContentComponent,
     ImageCardComponent,
     SocialCardComponent,
-    SkillCardComponent
+    SkillCardComponent,
+    ProjectsComponent,
+    CertificatesComponent,
+    OthersComponent
   ],
   imports: [
     BrowserModule,
