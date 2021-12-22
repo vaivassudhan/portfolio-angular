@@ -92,18 +92,17 @@ height: 5px;background-color: rgb(18,18,19);
    
 }
 .footer{
-    position:fixed; 
-    bottom:0;
-    padding-bottom: 0;
+    position: absolute;
+    bottom: 0px;
     left:0px; 
     right:0px;
     overflow:hidden;
 }
 .scroll{
     overflow-y: scroll;
-    height: 65vh;
+    height: 70vh;
     padding-bottom: 24px;
-    /* margin-bottom: -6em;     */
+    margin-bottom: 10px;    
 }
 .social-container .social-icons{
     display: flex;
