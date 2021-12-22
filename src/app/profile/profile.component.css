@@ -46,7 +46,6 @@ a{
   }
 .below-profile{
     background-color: #181818;
-
 }
 .pbar{
 height: 5px;background-color: rgb(18,18,19);
@@ -93,7 +92,9 @@ height: 5px;background-color: rgb(18,18,19);
    
 }
 .footer{
-    position:absolute; bottom:0px;
+    position:fixed; 
+    bottom:0;
+    padding-bottom: 0;
     left:0px; 
     right:0px;
     overflow:hidden;
@@ -102,7 +103,7 @@ height: 5px;background-color: rgb(18,18,19);
     overflow-y: scroll;
     height: 65vh;
     padding-bottom: 24px;
-      
+    /* margin-bottom: -6em;     */
 }
 .social-container .social-icons{
     display: flex;
