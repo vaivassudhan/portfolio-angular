@@ -7,12 +7,18 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContentComponent } from './content/content.component';
+import { ImageCardComponent } from './profile/image-card/image-card.component';
+import { SocialCardComponent } from './profile/social-card/social-card.component';
+import { SkillCardComponent } from './profile/skill-card/skill-card.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProfileComponent,
-    ContentComponent
+    ContentComponent,
+    ImageCardComponent,
+    SocialCardComponent,
+    SkillCardComponent
   ],
   imports: [
     BrowserModule,

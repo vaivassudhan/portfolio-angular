@@ -1,4 +1,4 @@
-.img-round{
+/* .img-round{
     width: 50%;
     height: 50%;
     margin: 0 auto;
@@ -121,4 +121,7 @@ height: 5px;background-color: rgb(18,18,19);
 .social-container .social-icons .sicon a:hover{
     text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
     color: #fafafc;
+} */
+.container{
+    max-height: 100vh;
 }
