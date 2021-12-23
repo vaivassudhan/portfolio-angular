@@ -1,1 +1,39 @@
-<p>projects works!</p>
+<div class="row pt-4">
+    <div class="col-lg-12">
+        <h6 class="page-head">Projects</h6>
+    </div>
+</div>
+<div class="row pt-2">
+    <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch"  *ngFor="let project of Projects">
+        <div class="project-card">
+            <div class="project-content">
+                <div class="project-title">
+                    <h6>{{project.title}}</h6>
+                </div>
+                <div class="project-desc">
+                    <span class="project-desc">
+                        {{project.description}}
+                    </span>
+                </div>
+                <div class="logos">
+                    <img *ngFor="let i of project.images" src={{i.src}} class={{i.class}}>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="project-card">
+            <div class="project-content">
+                <div class="project-title">
+                    <h6>R&D Portal</h6>
+                </div>
+                <div class="project-desc">
+                    <span class="project-desc">
+                        Sona R&D Portal is a web application that helps the user to manage the research and development activities of the company.
+                    </span>
+                </div>
+                <div class="logos">
+                    <img *ngFor="let i of image" src="../../../assets/img/angular.png" class="tech-logo">
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>
