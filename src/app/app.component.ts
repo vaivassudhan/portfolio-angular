@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as THREE from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import * as dat from 'dat.gui'
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,14 +10,15 @@ export class AppComponent implements OnInit {
   public sidebarShow: boolean = false;
   ngOnInit(): void {
    
-    // // Debug
-    const gui = new dat.GUI()
 
     // // Canvas
     const canvas = document.getElementById("webgl")!
 
     // // Scene
-    const scene = new THREE.Scene()
+    const textureloader = new THREE.TextureLoader();
+    const background = textureloader.load( '../../../assets/img/space-bg.jpg' );
+    const scene = new THREE.Scene();
+    scene.background = background;
 
     // // Objects
     const geometry = new THREE.TorusGeometry( .7, .2, 16, 100 );
@@ -35,10 +34,10 @@ export class AppComponent implements OnInit {
 
     // // Lights
 
-    const pointLight = new THREE.PointLight(0xffffff, 0.1)
-    pointLight.position.x = 2
-    pointLight.position.y = 3
-    pointLight.position.z = 4
+    const pointLight = new THREE.PointLight(0xffffff, 1)
+    pointLight.position.x = 0
+    pointLight.position.y = 0
+    pointLight.position.z = 2
     scene.add(pointLight)
 
     /**
@@ -89,22 +88,29 @@ export class AppComponent implements OnInit {
      * Animate
      */
      const minispheregeometry = new THREE.SphereBufferGeometry(.03,20,20)
-     const starmaterialw = new THREE.MeshBasicMaterial({
-         color:'0xaaaaaa'
+     const starmaterialw = new THREE.MeshStandardMaterial({
+         color:0x49eff4,
+         metalness:1,
+         roughness:0,
+         emissive:0x663333,
+         flatShading:true
      })
+     const Lights = new THREE.AmbientLight(0xffffff,0.7);
+     scene.add(Lights);
+    //  const background = new THREE.
      const minisphere:any=[];
      function addStar() {
        const minispherew = new THREE.Mesh(minispheregeometry,starmaterialw)
-       const [x,y,z] =  Array(3).fill(1).map(()=>THREE.MathUtils.randFloat(-20,20))
+       const [x,y,z] =  Array(3).fill(1).map(()=>THREE.MathUtils.randFloat(-15,15))
        minispherew.position.set(x,y,z)
        scene.add(minispherew)
        minisphere.push(minispherew);
      }
-     Array(1000).fill(1).forEach(addStar)
+     Array(200).fill(1).forEach(addStar)
      function moveStar() {
-       for(var i=0;i<1000;i++){
+       for(var i=0;i<200;i++){
          let singleMiniSphere=minisphere[i];
-         if(singleMiniSphere.position.z<=20)
+         if(singleMiniSphere.position.z<=10)
          {singleMiniSphere.position.z+=0.01}
          else
          {singleMiniSphere.position.z=-20}

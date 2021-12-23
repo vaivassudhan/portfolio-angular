@@ -1,5 +1,6 @@
 .below-profile{
     background-color: #181818;
+    height: 60vh;
 }
 .pbar{
 height: 5px;background-color: rgb(18,18,19);
@@ -38,12 +39,13 @@ height: 5px;background-color: rgb(18,18,19);
     padding-left: 6px;
 }
 .scroll{
+    background-color: #181818;
     overflow-y: scroll;
-    height: 60vh;
+    /* height: 60vh; */
 }
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
     .scroll {
         height: 50vh;
     }
     
-}
+} */
