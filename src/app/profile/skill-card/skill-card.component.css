@@ -2,6 +2,11 @@
     background-color: #181818;
     height: 60vh;
 }
+@media (max-width: 1400px) {
+    .below-profile{
+        height: 50vh;
+    }
+}
 .pbar{
 height: 5px;background-color: rgb(18,18,19);
 }

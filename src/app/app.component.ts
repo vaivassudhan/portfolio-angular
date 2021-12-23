@@ -98,7 +98,7 @@ export class AppComponent implements OnInit {
      const minisphere:any=[];
      function addStar() {
        const minispherew = new THREE.Mesh(minispheregeometry,starmaterialw)
-       const [x,y,z] =  Array(3).fill(1).map(()=>THREE.MathUtils.randFloat(-15,15))
+       const [x,y,z] =  Array(3).fill(1).map(()=>THREE.MathUtils.randFloat(-20,20))
        minispherew.position.set(x,y,z)
        scene.add(minispherew)
        minisphere.push(minispherew);
