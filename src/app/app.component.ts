@@ -89,11 +89,8 @@ export class AppComponent implements OnInit {
      */
      const minispheregeometry = new THREE.SphereBufferGeometry(.03,20,20)
      const starmaterialw = new THREE.MeshStandardMaterial({
-         color:0x49eff4,
-         metalness:1,
-         roughness:0,
-         emissive:0x663333,
-         flatShading:true
+         color:0xffffff,
+
      })
      const Lights = new THREE.AmbientLight(0xffffff,0.7);
      scene.add(Lights);

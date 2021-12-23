@@ -36,7 +36,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       "title":"Ideathon - Covicare mobile app",
-      "description":"A mobile application is designed to support and aid the self-quarantining patients by helping them to analyze and orient themselves for a healthy home quarantine routine for speedy recovery.",
+      "description":"A mobile app designed to support and aid the self-quarantining patients by helping them analyze and orient healthy home quarantine routine.",
       "images":[
         {"class":"html-logo","src":"../../../assets/img/html.png"},
         {"class":"css-logo","src":"../../../assets/img/css.png"},
