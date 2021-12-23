@@ -15,8 +15,6 @@
     letter-spacing: 0.5px;
     box-sizing: border-box;
     padding: 30px;
-}
-.project-card{
     overflow: hidden;
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
             box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);

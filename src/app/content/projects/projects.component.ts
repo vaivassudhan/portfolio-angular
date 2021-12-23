@@ -46,66 +46,8 @@ export class ProjectsComponent implements OnInit {
       ],
       "link":"researchportal.sonatech.ac.in"
     },
-    {
-      "title":"Ideathon - Covicare mobile app",
-      "description":"A mobile application is designed to support and aid the self-quarantining patients by helping them to analyze and orient themselves for a healthy home quarantine routine for speedy recovery.",
-      "images":[
-        {"class":"html-logo","src":"../../../assets/img/html.png"},
-        {"class":"css-logo","src":"../../../assets/img/css.png"},
-        {"class":"angular-logo","src":"../../../assets/img/angular.png"},
-        {"class":"node-logo","src":"../../../assets/img/node1.png"},
-        {"class":"mongodb-logo","src":"../../../assets/img/mongodb.png"},
-      ],
-      "link":"researchportal.sonatech.ac.in"
-    },
-    {
-      "title":"Ideathon - Covicare mobile app",
-      "description":"A mobile application is designed to support and aid the self-quarantining patients by helping them to analyze and orient themselves for a healthy home quarantine routine for speedy recovery.",
-      "images":[
-        {"class":"html-logo","src":"../../../assets/img/html.png"},
-        {"class":"css-logo","src":"../../../assets/img/css.png"},
-        {"class":"angular-logo","src":"../../../assets/img/angular.png"},
-        {"class":"node-logo","src":"../../../assets/img/node1.png"},
-        {"class":"mongodb-logo","src":"../../../assets/img/mongodb.png"},
-      ],
-      "link":"researchportal.sonatech.ac.in"
-    },
-    {
-      "title":"Ideathon - Covicare mobile app",
-      "description":"A mobile application is designed to support and aid the self-quarantining patients by helping them to analyze and orient themselves for a healthy home quarantine routine for speedy recovery.",
-      "images":[
-        {"class":"html-logo","src":"../../../assets/img/html.png"},
-        {"class":"css-logo","src":"../../../assets/img/css.png"},
-        {"class":"angular-logo","src":"../../../assets/img/angular.png"},
-        {"class":"node-logo","src":"../../../assets/img/node1.png"},
-        {"class":"mongodb-logo","src":"../../../assets/img/mongodb.png"},
-      ],
-      "link":"researchportal.sonatech.ac.in"
-    },
-    {
-      "title":"Ideathon - Covicare mobile app",
-      "description":"A mobile application is designed to support and aid the self-quarantining patients by helping them to analyze and orient themselves for a healthy home quarantine routine for speedy recovery.",
-      "images":[
-        {"class":"html-logo","src":"../../../assets/img/html.png"},
-        {"class":"css-logo","src":"../../../assets/img/css.png"},
-        {"class":"angular-logo","src":"../../../assets/img/angular.png"},
-        {"class":"node-logo","src":"../../../assets/img/node1.png"},
-        {"class":"mongodb-logo","src":"../../../assets/img/mongodb.png"},
-      ],
-      "link":"researchportal.sonatech.ac.in"
-    },
-    {
-      "title":"Ideathon - Covicare mobile app",
-      "description":"A mobile application is designed to support and aid the self-quarantining patients by helping them to analyze and orient themselves for a healthy home quarantine routine for speedy recovery.",
-      "images":[
-        {"class":"html-logo","src":"../../../assets/img/html.png"},
-        {"class":"css-logo","src":"../../../assets/img/css.png"},
-        {"class":"angular-logo","src":"../../../assets/img/angular.png"},
-        {"class":"node-logo","src":"../../../assets/img/node1.png"},
-        {"class":"mongodb-logo","src":"../../../assets/img/mongodb.png"},
-      ],
-      "link":"researchportal.sonatech.ac.in"
-    }
+
+
   ]
   ngOnInit(): void {
   }
