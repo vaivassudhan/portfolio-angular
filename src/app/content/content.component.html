@@ -17,25 +17,12 @@
     <div class="row ">
         <div class="col-lg-12 ">
             <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link active " href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Certificates</a>
-                  </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li> -->
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Certificates</a>
+                <li class="nav-item" *ngFor="let item of navlist; index as i">
+                  <a class="nav-link" [ngClass]="{'active':navselected[i]}" (click)="change(i)">{{item}}</a>
                 </li>
               </ul>
-            <app-projects class=" slow "></app-projects>
-            <!-- <app-certificates></app-certificates>
-            <app-others></app-others> -->
+            <app-projects *ngIf="navselected[0]" ></app-projects>
+            <app-certificates *ngIf="navselected[1]"></app-certificates>
         </div>
     </div>
 </div>
