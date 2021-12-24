@@ -45,27 +45,17 @@
 
 .sidebar-content {
     height: 100%;
+    z-index: 1;
 }
 .scroll{
     overflow-y: scroll;
     height: 80vh;
 }
-.even-h{
-    display: flex;
-    /* flex-direction: row; */
-    width: 100%;
-    
-}
-  
-.e-el {
-flex:1;
-}
 .fix{
     width: 80vw;
     position: relative;
     margin-left: -40vw;
-    height: 90vh;
-    /* margin-top: 100px; */
+    height: 95vh;
     left: 50%;
     overflow-y: scroll;
 }

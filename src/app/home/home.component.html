@@ -1,18 +1,18 @@
 <nav class="navbar navbar-dark bg-dark nav">
-    <a (click)="sidebarShow = !sidebarShow"><i class="fas fa-bars nb"></i></a>
+    <a (click)="sidebartog()"><i class="fas fa-bars nb"></i></a>
 </nav>
 <div class="sidebar-slider" [class.sidebar-slide-in]="sidebarShow">
 	  <div class="sidebar-content">
-        <app-profile ></app-profile>
+        <app-profile></app-profile>
 	  </div>
 </div>
 
-<div class="container pt-4" (click)="sidebarShow=false">
-    <div class="row fix" id="profile">
+<div class="container pt-4" (click)="exit()">
+    <div class="row " id="profile">
         <div class="col-lg-3 " >
             <app-profile class="profile" ></app-profile>
         </div>
-        <div class="col-lg-9 scroll" id="content">
+        <div class="col-lg-9" id="content">
             <app-content></app-content>
         </div>
     </div>
