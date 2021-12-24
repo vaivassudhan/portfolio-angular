@@ -46,6 +46,8 @@ height: 5px;background-color: rgb(18,18,19);
 .scroll{
     background-color: #181818;
     overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color:rgb(10,132,255) black ;
     /* height: 60vh; */
 }
 /* @media (max-width: 420px) {

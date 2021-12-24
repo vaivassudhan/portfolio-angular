@@ -6,6 +6,10 @@
 html{
   scroll-behavior: smooth;
 }
+:root{
+  --pblue: rgb(10,132,255);
+  --secondaryt: #8c8c8e;
+}
 h1,
 h2,
 h3,

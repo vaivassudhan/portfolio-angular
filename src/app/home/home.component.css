@@ -48,7 +48,7 @@
 }
 .scroll{
     overflow-y: scroll;
-    height: 90vh;
+    height: 80vh;
 }
 .even-h{
     display: flex;
@@ -64,7 +64,7 @@ flex:1;
     width: 80vw;
     position: relative;
     margin-left: -40vw;
-    height: 100%;
+    height: 90vh;
     /* margin-top: 100px; */
     left: 50%;
     overflow-y: scroll;
