@@ -53,15 +53,16 @@
     
     height: 100%;
 }
-.t3{
-    padding-left: 0;
-    padding-right: 0;
-}
-.col-container {
+.tcol-container {
     display: table;
     width: 100%;
   }
-  .col {
-    display: table-cell;
-    padding: 16px;
-  }
+.column {
+display: table-cell;
+padding: 16px;
+}
+.scroll{
+    
+    height: 95vh;
+    overflow-y: scroll;
+}

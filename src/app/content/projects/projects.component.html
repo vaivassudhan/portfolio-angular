@@ -5,7 +5,7 @@
 </div>
 <div class="row p-3">
     <div class="col-xl-4 col-md-6 col-sm-12 d-flex align-items-stretch pt-2"  *ngFor="let project of Projects">
-        <div class="project-card">
+        <div class="project-card mb-2">
             <div class="project-content">
                 <div class="project-title">
                     <h6>{{project.title}}</h6>
@@ -16,24 +16,9 @@
                     </span>
                 </div>
                 <div class="logos">
-                    <img *ngFor="let i of project.images" src={{i.src}} class={{i.class}}>
+                    <img *ngFor="let i of project.images" src={{i.src}} class={{i.class}} >
                 </div>
             </div>
         </div>
-        <!-- <div class="project-card">
-            <div class="project-content">
-                <div class="project-title">
-                    <h6>R&D Portal</h6>
-                </div>
-                <div class="project-desc">
-                    <span class="project-desc">
-                        Sona R&D Portal is a web application that helps the user to manage the research and development activities of the company.
-                    </span>
-                </div>
-                <div class="logos">
-                    <img *ngFor="let i of image" src="../../../assets/img/angular.png" class="tech-logo">
-                </div>
-            </div>
-        </div> -->
     </div>
 </div>
