@@ -103,11 +103,11 @@ export class AppComponent implements OnInit {
        scene.add(minispherew)
        minisphere.push(minispherew);
      }
-     Array(200).fill(1).forEach(addStar)
+     Array(800).fill(1).forEach(addStar)
      function moveStar() {
-       for(var i=0;i<200;i++){
+       for(var i=0;i<800;i++){
          let singleMiniSphere=minisphere[i];
-         if(singleMiniSphere.position.z<=10)
+         if(singleMiniSphere.position.z<=20)
          {singleMiniSphere.position.z+=0.01}
          else
          {singleMiniSphere.position.z=-20}
