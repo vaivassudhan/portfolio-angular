@@ -44,25 +44,28 @@
 }
 
 .sidebar-content {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction:column;
-    color: white;
-    font-size: 16px; */
-    
     height: 100%;
 }
-.tcol-container {
-    display: table;
-    width: 100%;
-  }
-.column {
-display: table-cell;
-padding: 16px;
-}
 .scroll{
+    overflow-y: scroll;
+    height: 90vh;
+}
+.even-h{
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
     
-    height: 95vh;
+}
+  
+.e-el {
+flex:1;
+}
+.fix{
+    width: 80vw;
+    position: relative;
+    margin-left: -40vw;
+    height: 100%;
+    /* margin-top: 100px; */
+    left: 50%;
     overflow-y: scroll;
 }

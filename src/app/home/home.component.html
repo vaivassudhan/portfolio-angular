@@ -7,15 +7,13 @@
 	  </div>
 </div>
 
-<div class="tcol-container pt-2" (click)="sidebarShow=false">
-    <div class="row">
-        <div class="col-lg-3 column">
-            <app-profile class="profile"></app-profile>
-            
+<div class="container pt-4" (click)="sidebarShow=false">
+    <div class="row fix" id="profile">
+        <div class="col-lg-3 " >
+            <app-profile class="profile" ></app-profile>
         </div>
-        <div class="col-lg-9 column scroll">
-            <app-content *ngIf="!sidebarShow"></app-content>
-
+        <div class="col-lg-9 scroll" id="content">
+            <app-content></app-content>
         </div>
     </div>
 </div>
