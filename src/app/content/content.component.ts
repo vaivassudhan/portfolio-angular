@@ -7,7 +7,7 @@ import * as THREE from 'three';
 })
 export class ContentComponent implements OnInit {
   constructor() { }
-  public navlist =["Projects","Certificates","Youtube"];
+  public navlist =["Projects"];
   public navselected = [true,false,false];
   
   ngOnInit(): void {

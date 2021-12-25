@@ -39,3 +39,7 @@
         overflow:hidden;
     }
 }
+.sicon a{
+    text-decoration: none;
+    color: #8c8c8e;
+}
