@@ -1,0 +1,76 @@
+.page-head{
+    font-weight: 600;
+    font-size:1.2rem;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+.certificate-card{
+   
+    line-height: 1.5;
+    color: #8c8c8e;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    padding: 20px;
+    -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+            box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+    background: #202022;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+.certificate-content{
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    /* padding-left: 6px; */
+    align-content: space-around;
+}
+.c-title{
+    font-size: 0.9rem;
+    align-self: center;
+    margin-bottom: auto;
+    padding-left: 12px;
+    padding-top: 12px;
+    margin-bottom: 2px;
+}
+.c-issued{
+    padding-left: 12px;
+    color: #8c8c8e;
+    
+    font-size: 0.8rem;
+}
+.c-issuedate{
+    padding-left: 12px;
+    color: #8c8c8e;
+    
+    font-size: 0.8rem;
+}
+.certificate-link{
+    position: relative;
+    bottom: 0px;
+    right: 5px;
+    margin-left: auto;
+    padding-top: 24px;
+    
+    line-height: 1.5;
+    
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+   
+    font-size: 12px;
+    
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    color: rgb(10,132,255);
+}
+.logo{
+    align-self: flex-end;
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}

@@ -59,26 +59,23 @@ export class ProjectsComponent implements OnInit {
       "link":"researchportal.sonatech.ac.in"
     },
     {
-      "title":"Sahaayata",
-      "description":"Web portal and mobile app to simplify the greivance redressal of employees of the Southern Railway Salem division.",
+      "title":"Team-Hiremee website",
+      "description":"A portfolio website designed and developed for Team-Hiremee with PayPal payment gateway integration.",
       "images":[
         {"class":"html-logo","src":"../../../assets/img/html.png"},
         {"class":"css-logo","src":"../../../assets/img/css.png"},
-        {"class":"angular-logo","src":"../../../assets/img/angular.png"},
-        {"class":"node-logo","src":"../../../assets/img/node1.png"},
-        {"class":"mongodb-logo","src":"../../../assets/img/mongodb.png"},
+        {"class":"js-logo","src":"../../../assets/img/js.png"},
+        {"class":"aws-logo","src":"../../../assets/img/paypal.png"},
       ],
       "link":"researchportal.sonatech.ac.in"
     },
     {
-      "title":"Ideathon - Covicare",
-      "description":"A mobile app to support and aid the self-quarantining patients by helping analyze healthy home quarantine routine.",
+      "title":"Chatbot",
+      "description":"A Python based NLP chatbot to provide details about the college, developed for Sona college Admission cell using Wit AI.",
       "images":[
-        {"class":"html-logo","src":"../../../assets/img/html.png"},
-        {"class":"css-logo","src":"../../../assets/img/css.png"},
-        {"class":"angular-logo","src":"../../../assets/img/angular.png"},
-        {"class":"node-logo","src":"../../../assets/img/node1.png"},
-        {"class":"mongodb-logo","src":"../../../assets/img/mongodb.png"},
+        {"class":"css-logo","src":"../../../assets/img/python.png"},
+        {"class":"angular-logo","src":"../../../assets/img/sql.png"},
+        {"class":"angular-logo","src":"../../../assets/img/wit.png"},
       ],
       "link":"researchportal.sonatech.ac.in"
     },

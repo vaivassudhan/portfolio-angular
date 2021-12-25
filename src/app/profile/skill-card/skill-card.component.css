@@ -1,10 +1,14 @@
 .below-profile{
-    background-color: #181818;
+    /* background-color: #181818; */
+    background-color: rgba(24, 24, 24, 0.1);  
+
     height: 60vh;
 }
 @media (max-width: 1400px) {
     .below-profile{
         height: 50vh;
+    background-color: rgba(24, 24, 24, 0.1);  
+
     }
 }
 .pbar{
@@ -44,7 +48,9 @@ height: 5px;background-color: rgb(18,18,19);
     padding-left: 6px;
 }
 .scroll{
-    background-color: #181818;
+    /* background-color: #181818; */
+    background-color: rgba(24, 24, 24, 0.1);  
+
     overflow-y: scroll;
     scroll-behavior: smooth;
     scrollbar-color:rgb(10,132,255) black ;

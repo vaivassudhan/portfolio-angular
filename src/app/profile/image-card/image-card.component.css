@@ -46,5 +46,13 @@ a{
     --animate-delay: 0.9s;
   }
   .profile-card-div{
-    background-color: #242526;
+    /* background-color: #242526;
+     */
+     background-color: rgba(24, 24, 24, 0.1);  
+
+
+}
+.card{
+    
+    background-color: rgba(24, 24, 24, 0.1);  
 }

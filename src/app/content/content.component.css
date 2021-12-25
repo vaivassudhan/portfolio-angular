@@ -1,8 +1,11 @@
 .content-container{
-    /* background-color: #181818; */
-    background-color: rgba(49, 49, 49, 0.15);  
+    background-color: rgba(24, 24, 24, 0.1);  
     padding-left: 0;
     padding-right: 0;
+}
+.c-bg{
+    background-color: #181818;
+
 }
 .heading{
     width: 100%;
