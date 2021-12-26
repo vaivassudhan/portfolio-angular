@@ -48,8 +48,8 @@ height: 5px;background-color: rgb(18,18,19);
     padding-left: 6px;
 }
 .scroll{
-    /* background-color: #181818; */
-    background-color: rgba(24, 24, 24, 0.1);  
+    background-color: #181818;
+    /* background-color: rgba(24, 24, 24, 0.1);   */
 
     overflow-y: scroll;
     scroll-behavior: smooth;
