@@ -23,4 +23,5 @@ jobs:
         port: "22"
         script: |
           cd /home/
-          ls 
+          sudo su
+          mkdir github-action
