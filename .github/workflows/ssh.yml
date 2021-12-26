@@ -22,6 +22,5 @@ jobs:
         key: ${{ secrets.AZURE_KEY }}
         port: "22"
         script: |
-          cd /home/
-          sudo su
+          cd /home/azureuser/
           mkdir github-action
