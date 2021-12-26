@@ -1,0 +1,26 @@
+name: remote ssh command
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ Production ]
+  pull_request:
+    branches: [ Production ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.AZURE_HOST }}
+        username: ${{ secrets.AZURE_USERNAME }}
+        key: ${{ secrets.AZURE_KEY }}
+        port: "22"
+        script: |
+          cd /home/azureuser/
+          mkdir github-action
