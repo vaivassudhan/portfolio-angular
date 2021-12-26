@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Angular CD
 
 # Controls when the workflow will run
 on:
@@ -38,5 +38,5 @@ jobs:
           SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.AZURE_HOST }}
           REMOTE_USER: ${{ secrets.AZURE_USERNAME }}
-          TARGET: "/home"
+          TARGET: "/home/azureuser/"
           EXCLUDE: "/dist/, /node_modules/"
